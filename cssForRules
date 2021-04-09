@@ -74,3 +74,129 @@
     background-color: #cae3ff;
     color: black;
 }
+.upperbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(202, 196, 184);
+    font-size: 20px;
+}
+.title{
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    font-size: 25px;
+}
+.timer{
+    display: flex;
+    justify-content: space-around;
+    width: 160px;
+    background-color: #cce5ff;
+    border: #a4d0ff;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 17px;
+}
+.timetext{
+    font-size: 20px;
+}
+.timersec{
+    background-color: #343A40;
+    width: 50px;
+    height:fit-content;
+    margin-top: 2px;
+    text-align: center;
+    color: azure;
+    border: 1px solid  #cce5ff;
+    border-radius: 5px;
+    user-select: none;
+}
+.question{
+    padding-top: 10px;
+}
+.quetext{
+    font-size: 27px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.optionlist{
+    padding: 10px 0;
+    display: block;
+}
+.options{
+    background: aliceblue;
+    border: 1px solid #84c5fe;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options:hover{
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+.optionlist .options .icon{
+    height: 26px;
+    width: 26px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    line-height: 24px;
+}
+.optionlist .options .icontick{
+    color: green;
+    border-color: green;
+}
+.optionlist .options .iconcross{
+    color: red;
+    border-color:red;
+}
+.endofline{
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgrey;
+}
+.endofline .totalquestions span{
+    display: flex;
+    user-select: none;
+    font-size: 17px;
+}
+.endofline .totalquestions span p{
+    font-weight: 500;
+    padding: 0 5px;
+}
+.nextques{
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    background: #007bff;
+    border: 1px solid #007bff;
+    /* line-height: 10px;
+    opacity: 0;S
+    pointer-events: none;
+    transform: scale(0.95);
+    transition: all 0.3s ease; */
+}
+.nextques:hover{
+    background: #0263ca;
+}
