@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.infobox,.quizbox{
+    position:absolute;
+    background-color: aquamarine;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 540px;
+    padding: 26px 30px 20px 30px;
+}
+.infotitle{
+    padding-bottom: 15px;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    border-bottom: 1px solid rgb(202, 196, 184);
+    font-size: 30px;
+}
+.rules{
+    padding-top: 20px;
+    font-size: 17px;
+    border-bottom: 1px solid rgb(202, 196, 184) ;
+    padding-bottom: 10px;
+}
+.rule{
+    padding-bottom: 3px;
+}
+.exitcontinue{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+#sectimerinfo{
+    color: blueviolet;
+}
+.infobox.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exit{
+    font-size: 16px;
+    margin-right: 5px;
+    background-color: #007bff;
+    border: 2px solid blue;
+    border-radius: 4px;
+    color: white;
+    padding: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.continue{
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: #007bff;
+    border: 2px solid blue;
+    border-radius: 4px;
+    color: white;
+    padding: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.exit:hover{
+    background-color: #cae3ff;
+    color: black;
+}
+.continue:hover{
+    background-color: #cae3ff;
+    color: black;
+}
