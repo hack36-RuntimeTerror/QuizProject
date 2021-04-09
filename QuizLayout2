@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>somethigquiz</title>
+    <link rel="stylesheet" href="quizmainstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="infobox">
+        <div class="infotitle">
+            <span>Here are some rules...</span>
+        </div>
+        <div class="rules">
+            <div class="rule">1. You will have only <span id="sectimerinfo">15 seconds</span> for each question.</div>
+            <div class="rule">2. You cannot change your answer after selecting.</div>
+            <div class="rule">3. Points will be reflected at the end of the quiz</div>
+            <div class="rule">4. You cannot select the answer after the timer goes off</div>
+            <div class="rule">5. All the best !</div>
+        </div>
+        <div class="exitcontinue">
+            <button class="exit">Exit Quiz</button>
+            <button class="continue">Continue</button>
+        </div>
+    </div>
+    <div class="quizbox">
+        <div class="upperbox">
+        <div class="title">Topic 1</div>
+        <div class="timer">
+            <div class="timetext">Time left</div>
+            <div class="timersec">15</div>
+        </div>
+    </div>
+            <div class="question">
+            <div class="quetext"><span>Q1 this is really supposed to be question 1</span></div>
+            <div class="optionlist">
+            <div class="options">
+                <span>optionnnn 1</span>
+                <div class="icontick"><i class="fas fa-check"></i></div>
+            </div>
+            <div class="options">
+                <span>optionnnn 2</span>
+                <div class="iconcross"><i class="fas fa-times"></i></div>
+            </div>
+            <div class="options">
+                <span>optionnnn 3</span>
+                <!-- <div class="icon cross"><i class="fas fa-times"></i></div> -->
+            </div>
+            <div class="options">
+                <span>optionnnn 4</span>
+                <!-- <div class="icon cross"><i class="fas fa-times"></i></div> -->
+            </div>
+        </div>
+        </div>
+            <div class="totalquestions">
+                <span><p>2</p>Of <p>7</p>Questions</span>
+            </div>
+            <button class="nextques">Next Question</button>
+            
+    </div>
+
+</body>
+</html>
